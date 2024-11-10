@@ -27,7 +27,7 @@ if disp_button: # al hacer clic en el botón
     fig2 = px.scatter(car_data, x="odometer")
     st.plotly_chart(fig2, use_container_width=True)
 """
-build_hist = st.checkbox("Contruir histograma") # crea una casilla de verificación
+build_hist = st.checkbox("Construir histograma") # crea una casilla de verificación
 
 if build_hist: # al seleccionar 
     '''
