@@ -8,8 +8,8 @@ import os
 #st.run(host='0.0.0.0', port=port)
 
 ###
-
-car_data = pd.read_csv('C:\\Users\\lugon_a5e16xi\\OneDrive\\Documents\\TripleTen\\GIT\\My_project\\vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('vehicles_us.csv')
+#car_data = pd.read_csv('C:\\Users\\lugon_a5e16xi\\OneDrive\\Documents\\TripleTen\\GIT\\My_project\\vehicles_us.csv') # leer los datos
 
 # Contenido de la aplicación 
 st.header("Test Dispersión Del Odómetro VS Precio De Vehículos") # crea el encabezado
