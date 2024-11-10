@@ -3,10 +3,9 @@ import pandas as pd
 import plotly_express as px
 import os
 
-
-port = int(os.environ.get("PORT", 8501))  # Usa el puerto de la variable de entorno PORT, o 8501 por defecto
-st._is_running_with_streamlit = False
-st.run(host='0.0.0.0', port=port)
+#port = int(os.environ.get("PORT", 8501))  # Usa el puerto de la variable de entorno PORT, o 8501 por defecto
+#st._is_running_with_streamlit = False
+#st.run(host='0.0.0.0', port=port)
 
 ###
 
