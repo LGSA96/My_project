@@ -1,6 +1,15 @@
 import streamlit as st
 import pandas as pd
 import plotly_express as px
+import os
+
+
+port = int(os.environ.get("PORT", 8501))  # Usa el puerto de la variable de entorno PORT, o 8501 por defecto
+st.server.server_port = port
+
+# El resto de tu código de Streamlit aquí
+
+
 
 car_data = pd.read_csv('C:\\Users\\lugon_a5e16xi\\OneDrive\\Documents\\TripleTen\\GIT\\My_project\\vehicles_us.csv') # leer los datos
 
